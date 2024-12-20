@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Container */
+.login-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Heading */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Input Fields */
+.login-container input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-container input:focus {
+    border-color: #c41a4a;
+    outline: none;
+}
+
+/* Submit Button */
+.login-container button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #c41a4a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #a0173c;
+}
+
+/* Signup Link */
+.login-container .signup-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.login-container .signup-link a {
+    color: #c41a4a;
+    text-decoration: none;
+}
+
+.login-container .signup-link a:hover {
+    text-decoration: underline;
+}
